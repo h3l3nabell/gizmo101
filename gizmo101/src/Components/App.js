@@ -1,4 +1,4 @@
-import logo from './WellyGoat2NoBG.svg';
+import logo from '../WellyGoat2NoBG.svg';
 import './App.css';
 
 function App() {
