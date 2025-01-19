@@ -3,5 +3,6 @@ module.exports = {
        "^.+\\.(js|jsx)$": "babel-jest"
     },
     setupFilesAfterEnv: ['<rootDir>/src/setupTests.js'],
-    testEnvironment: "jsdom"
+    testEnvironment: "jsdom",
+    testPathIgnorePatterns: ["/node_modules/", "/service-worker\\.js$"]
   };
