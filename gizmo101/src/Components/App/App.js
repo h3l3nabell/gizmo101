@@ -1,4 +1,4 @@
-import logo from '../../WellyGoat2NoBG.svg';
+import logo from './WellyGoat2NoBG.svg';
 import './App.css';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
           {/* Edit <code>src/App.js</code> and save to reload. */}
           Welcome to WellyGoat!
         </p>
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="Spinning-logo" alt="logo" />
 
         <a
           className="App-link"
