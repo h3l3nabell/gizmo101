@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
-import Logo from '../Logo/Logo';
 import Header from '../Header/Header'
+import MainBody from '../MainBody/MainBody'
+import Footer from '../Footer/Footer'
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <MainBody />
+      <Footer />
     </div>
   );
 }
