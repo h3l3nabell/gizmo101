@@ -1,4 +1,4 @@
-// src/service-worker.js
+// src/serviceWorker.js
 self.addEventListener('install', (event) => {
     event.waitUntil(
       caches.open('app-cache').then((cache) => {

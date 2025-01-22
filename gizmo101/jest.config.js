@@ -4,5 +4,5 @@ module.exports = {
     },
     setupFilesAfterEnv: ['<rootDir>/src/setupTests.js'],
     testEnvironment: "jsdom",
-    testPathIgnorePatterns: ["/node_modules/", "/service-worker\\.js$"]
+    testPathIgnorePatterns: ["/node_modules/"]
   };
