@@ -1,5 +1,5 @@
-import logo from './WellyGoat2NoBG.svg';
 import './App.css';
+import Logo from '../Logo/Logo';
 
 function App() {
   return (
@@ -9,8 +9,7 @@ function App() {
           {/* Edit <code>src/App.js</code> and save to reload. */}
           Welcome to WellyGoat!
         </p>
-        <img src={logo} className="Spinning-logo" alt="logo" />
-
+        <Logo />
         <a
           className="App-link"
           href="https://reactjs.org"
